@@ -5,18 +5,14 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class SampleTest {
+
     @Test
-    @DisplayName("Фильтрация четных чисел")
-    void filterEvenNumbers() {
-        // given
-        int[] numbers = new int[] {1, 2, 3, 4, 5};
-
-        // when
-        int[] evenNumbers = EvenArrayUtils.filter(numbers);
-
+    @DisplayName("Ф")
+    void minutesToSeconds() {
+        String in = "01:00";
+        int out = 60;
+        int actualResult = Task1.minutesToSeconds(in);
         // then
-        assertThat(evenNumbers)
-            .containsExactly(2, 4)
-            .hasSize(2);
+        assertThat(actualResult).isEqualTo(out);
     }
 }
