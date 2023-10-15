@@ -3,29 +3,30 @@ package edu.hw1;
 import java.util.logging.Logger;
 import java.util.Arrays;
 
-public class Task1 {
+public class Task {
 
     //Task0
-    private static final Logger LOGGER = Logger.getLogger(Task1.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Task.class.getName());
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         LOGGER.info("Привет, мир!");
     }
 
 
     //Task1
-    public static Integer minutesToSeconds(String time){
+    public static int minutesToSeconds(String time){
         String[] nums = time.split(":");
 
-        if ( nums[1].length() < 2 | nums.length != 2)
+        if (nums.length != 2 || nums[1].length() < 2) {
             return -1;
-
+        }
 
         int minutes = Integer.parseInt(nums[0]);
         int seconds = Integer.parseInt(nums[1]);
 
-        if (minutes < 0 | seconds < 0 | seconds >= 60)
+        if (minutes < 0 || seconds < 0 || seconds >= 60) {
             return -1;
+        }
 
         return minutes * 60 + seconds;
     }
@@ -38,23 +39,25 @@ public class Task1 {
     }
 
     //Task3
-    public static Boolean isNestable(int[] ms1, int[] ms2){
-        if (ms1.length == 0 | ms2.length == 0) return false;
-        return Arrays.stream(ms1).max().orElseThrow() < Arrays.stream(ms2).max().orElseThrow() &
+    public static boolean isNestable(int[] ms1, int[] ms2){
+        if (ms1.length == 0 || ms2.length == 0){
+            return false;
+        }
+        return Arrays.stream(ms1).max().orElseThrow() < Arrays.stream(ms2).max().orElseThrow() &&
             Arrays.stream(ms1).min().orElseThrow() > Arrays.stream(ms2).min().orElseThrow();
     }
 
     //Task4
-    public static StringBuilder fixString(String str) {
+    public static String fixString(String str) {
         StringBuilder strAns = new StringBuilder();
         for (int i = 0; i < str.length() - 1; i += 2) {
             strAns.append(str.charAt(i + 1));
             strAns.append(str.charAt(i));
         }
-        if (str.length() % 2 != 0)
+        if (str.length() % 2 != 0) {
             strAns.append(str.charAt(str.length() - 1));
-
-        return strAns;
+        }
+        return String.valueOf(strAns);
     }
 
     //Task5
@@ -69,15 +72,15 @@ public class Task1 {
         if (str.length() == 1) return false;
         boolean flag = true;
         for (int i = 0; i < str.length(); i++)
-            flag &= (str.charAt(str.length() - 1 - i) == str.charAt(i));
-        if (flag) return true;
-        else {
-            StringBuilder newstr = new StringBuilder();
-            for (int i = 0; i < str.length(); i += 2)
-                newstr.append(Integer.parseInt("" + str.charAt(i))
-                    + Integer.parseInt("" + str.charAt(i + 1)));
-            return isPalindromeDescendant(newstr.toString());
-        }
+            if (str.charAt(str.length() - 1 - i) != str.charAt(i))
+            {
+                StringBuilder newstr = new StringBuilder();
+                for (int j = 0; j < str.length(); j += 2)
+                    newstr.append(Integer.parseInt("" + str.charAt(i))
+                        + Integer.parseInt("" + str.charAt(i + 1)));
+                return isPalindromeDescendant(newstr.toString());
+            }
+        return true;
     }
 
     //Task6
@@ -88,7 +91,14 @@ public class Task1 {
 
     public static int countK(int num) {
         if (num <= 1000) return -1;
-        int ans =0;
+        int ans = 0;
+        int tmp = num, prev = num % 10;
+        boolean flag = true;
+        while (tmp > 0){
+            flag &= (prev == (tmp%10));
+            tmp /= 10;
+        }
+        if (flag) return -1;
         while (num != 6174){
 
             char[] str = Integer.toString(num).toCharArray();
@@ -97,6 +107,7 @@ public class Task1 {
             int inc = Integer.parseInt(reverseString(new String(str)));
             num = inc - des;
             ans++;
+            if (num == 0) return -1;
         }
         return ans;
     }
@@ -117,18 +128,22 @@ public class Task1 {
         n |= n >> 16;
         return ++n;
     }
+    public static int findDigits(int n)
+    {
+        int ans = 0;
+        while(n > 0) { ans++; n /= 2;}
+        return ans;
+    }
     public static int rotateLeft(int n, int shift){
-        return ((n << shift) | (n >> ((int)  ((Math.ceil((Math.log(n) + Math.log(2) - 1)/Math.log(2))) + 1 - shift))))
-            & ( findNextPowerOf2(n) - 1);
+        return ((n << shift) | (n >> (findDigits(n) - shift))) & ( findNextPowerOf2(n) - 1);
     }
     public static int rotateRight(int n, int shift){
-        return ((n >> shift) | (n << ((int) (Math.ceil((Math.log(n) + Math.log(2) - 1) / Math.log(2))) + 1 - shift)))
-            & ( findNextPowerOf2(n) - 1);
+        return ((n >> shift) | (n << (findDigits(n) - shift))) & ( findNextPowerOf2(n) - 1);
     }
 
     //Task8
     public static boolean check(int x, int y) {
-        return  x >=0 & x<8 & y >=0 & y <8;
+        return  x >= 0 && x < 8 && y >= 0 && y < 8;
     }
 
     private static final int[] xx = new int[]{-1,-2,-1,-2,1,2,1,2};

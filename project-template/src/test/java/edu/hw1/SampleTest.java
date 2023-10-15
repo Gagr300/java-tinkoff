@@ -13,7 +13,7 @@ public class SampleTest {
     void minutesToSecondsT0() {
         String in = "01:00";
         int expectedResult = 60;
-        int actualResult = Task1.minutesToSeconds(in);
+        int actualResult = Task.minutesToSeconds(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -21,7 +21,7 @@ public class SampleTest {
     void minutesToSecondsT1() {
         String in = "13:56";
         int expectedResult = 836;
-        int actualResult = Task1.minutesToSeconds(in);
+        int actualResult = Task.minutesToSeconds(in);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -30,7 +30,7 @@ public class SampleTest {
     void minutesToSecondsT2() {
         String in = "100:00";
         int expectedResult = 6000;
-        int actualResult = Task1.minutesToSeconds(in);
+        int actualResult = Task.minutesToSeconds(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -38,7 +38,7 @@ public class SampleTest {
     void minutesToSecondsT3() {
         String in = "01:00:00";
         int expectedResult = -1;
-        int actualResult = Task1.minutesToSeconds(in);
+        int actualResult = Task.minutesToSeconds(in);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -47,7 +47,7 @@ public class SampleTest {
     void minutesToSecondsT4() {
         String in = "10:60";
         int expectedResult = -1;
-        int actualResult = Task1.minutesToSeconds(in);
+        int actualResult = Task.minutesToSeconds(in);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -56,7 +56,7 @@ public class SampleTest {
     void minutesToSecondsT5() {
         String in = "-10:20";
         int expectedResult = -1;
-        int actualResult = Task1.minutesToSeconds(in);
+        int actualResult = Task.minutesToSeconds(in);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -65,7 +65,7 @@ public class SampleTest {
     void minutesToSecondsT6() {
         String in = "10:-06";
         int expectedResult = -1;
-        int actualResult = Task1.minutesToSeconds(in);
+        int actualResult = Task.minutesToSeconds(in);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -74,7 +74,7 @@ public class SampleTest {
     void minutesToSecondsT7() {
         String in = "100:1";
         int expectedResult = -1;
-        int actualResult = Task1.minutesToSeconds(in);
+        int actualResult = Task.minutesToSeconds(in);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -84,7 +84,7 @@ public class SampleTest {
     void countDigitsT0() {
         int in = 4666;
         int expectedResult = 4;
-        int actualResult = Task1.countDigits(in);
+        int actualResult = Task.countDigits(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -92,7 +92,7 @@ public class SampleTest {
     void countDigitsT1() {
         int in = 544;
         int expectedResult = 3;
-        int actualResult = Task1.countDigits(in);
+        int actualResult = Task.countDigits(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -100,7 +100,7 @@ public class SampleTest {
     void countDigitsT2() {
         int in = 0;
         int expectedResult = 1;
-        int actualResult = Task1.countDigits(in);
+        int actualResult = Task.countDigits(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -108,7 +108,7 @@ public class SampleTest {
     void countDigitsT3() {
         int in = -100;
         int expectedResult = 3;
-        int actualResult = Task1.countDigits(in);
+        int actualResult = Task.countDigits(in);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -120,7 +120,7 @@ public class SampleTest {
         int[] in0 = new int[] {1, 2, 3, 4};
         int[] in1 = new int[] {0, 6};
         boolean expectedResult = true;
-        boolean actualResult = Task1.isNestable(in0, in1);
+        boolean actualResult = Task.isNestable(in0, in1);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -129,7 +129,7 @@ public class SampleTest {
         int[] in0 = new int[] {3, 1};
         int[] in1 = new int[] {4, 0};
         boolean expectedResult = true;
-        boolean actualResult = Task1.isNestable(in0, in1);
+        boolean actualResult = Task.isNestable(in0, in1);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -138,7 +138,7 @@ public class SampleTest {
         int[] in0 = new int[] {9, 9, 8};
         int[] in1 = new int[] {8, 9};
         boolean expectedResult = false;
-        boolean actualResult = Task1.isNestable(in0, in1);
+        boolean actualResult = Task.isNestable(in0, in1);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -147,7 +147,7 @@ public class SampleTest {
         int[] in0 = new int[] {1, 2, 3, 4};
         int[] in1 = new int[] {2, 3};
         boolean expectedResult = false;
-        boolean actualResult = Task1.isNestable(in0, in1);
+        boolean actualResult = Task.isNestable(in0, in1);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -157,7 +157,7 @@ public class SampleTest {
         int[] in0 = new int[] {1, 2, 3, 4};
         int[] in1 = new int[] {};
         boolean expectedResult = false;
-        boolean actualResult = Task1.isNestable(in0, in1);
+        boolean actualResult = Task.isNestable(in0, in1);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -167,7 +167,7 @@ public class SampleTest {
     void fixStringT0() {
         String in = "123456";
         String expectedResult = "214365";
-        String actualResult = String.valueOf(Task1.fixString(in));
+        String actualResult = String.valueOf(Task.fixString(in));
         assertEquals(expectedResult, actualResult);
     }
 
@@ -176,7 +176,7 @@ public class SampleTest {
     void fixStringT1() {
         String in = "hTsii  s aimex dpus rtni.g";
         String expectedResult = "This is a mixed up string.";
-        String actualResult = String.valueOf(Task1.fixString(in));
+        String actualResult = String.valueOf(Task.fixString(in));
         assertEquals(expectedResult, actualResult);
     }
 
@@ -185,7 +185,7 @@ public class SampleTest {
     void fixStringT2() {
         String in = "badce";
         String expectedResult = "abcde";
-        String actualResult = String.valueOf(Task1.fixString(in));
+        String actualResult = String.valueOf(Task.fixString(in));
         assertEquals(expectedResult, actualResult);
     }
 
@@ -195,7 +195,7 @@ public class SampleTest {
     void isPalindromeDescendantT0() {
         int in = 11211230;
         boolean expectedResult = true;
-        boolean actualResult = Task1.isPalindromeDescendant(in);
+        boolean actualResult = Task.isPalindromeDescendant(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -203,7 +203,7 @@ public class SampleTest {
     void isPalindromeDescendantT1() {
         int in = 13001120;
         boolean expectedResult = true;
-        boolean actualResult = Task1.isPalindromeDescendant(in);
+        boolean actualResult = Task.isPalindromeDescendant(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -211,7 +211,7 @@ public class SampleTest {
     void isPalindromeDescendantT2() {
         int in = 23336014;
         boolean expectedResult = true;
-        boolean actualResult = Task1.isPalindromeDescendant(in);
+        boolean actualResult = Task.isPalindromeDescendant(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -219,7 +219,7 @@ public class SampleTest {
     void isPalindromeDescendantT3() {
         int in = 11;
         boolean expectedResult = true;
-        boolean actualResult = Task1.isPalindromeDescendant(in);
+        boolean actualResult = Task.isPalindromeDescendant(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -227,7 +227,7 @@ public class SampleTest {
     void isPalindromeDescendanF0() {
         int in = 12;
         boolean expectedResult = false;
-        boolean actualResult = Task1.isPalindromeDescendant(in);
+        boolean actualResult = Task.isPalindromeDescendant(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -235,7 +235,7 @@ public class SampleTest {
     void isPalindromeDescendanF1() {
         int in = -11;
         boolean expectedResult = false;
-        boolean actualResult = Task1.isPalindromeDescendant(in);
+        boolean actualResult = Task.isPalindromeDescendant(in);
         assertEquals(expectedResult, actualResult);
     }
     //Task6
@@ -244,7 +244,7 @@ public class SampleTest {
     void countKT0() {
         int in = 6621;
         int expectedResult = 5;
-        int actualResult = Task1.countK(in);
+        int actualResult = Task.countK(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -252,7 +252,7 @@ public class SampleTest {
     void countKT1() {
         int in = 6554;
         int expectedResult = 4;
-        int actualResult = Task1.countK(in);
+        int actualResult = Task.countK(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -260,11 +260,18 @@ public class SampleTest {
     void countKT2() {
         int in = 1234;
         int expectedResult = 3;
-        int actualResult = Task1.countK(in);
+        int actualResult = Task.countK(in);
         assertEquals(expectedResult, actualResult);
     }
 
-
+    @Test
+    @DisplayName("countKT3")
+    void countKT3() {
+        int in = 1111;
+        int expectedResult = -1;
+        int actualResult = Task.countK(in);
+        assertEquals(expectedResult, actualResult);
+    }
     //Task7
     @Test
     @DisplayName("rotateRightT0")
@@ -272,7 +279,7 @@ public class SampleTest {
         int in0 = 8;
         int in1 = 1;
         int expectedResult = 4;
-        int actualResult = Task1.rotateRight(in0, in1);
+        int actualResult = Task.rotateRight(in0, in1);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -281,7 +288,7 @@ public class SampleTest {
         int in0 = 16;
         int in1 = 1;
         int expectedResult = 1;
-        int actualResult = Task1.rotateLeft(in0, in1);
+        int actualResult = Task.rotateLeft(in0, in1);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -290,7 +297,7 @@ public class SampleTest {
         int in0 = 17;
         int in1 = 2;
         int expectedResult = 6;
-        int actualResult = Task1.rotateLeft(in0, in1);
+        int actualResult = Task.rotateLeft(in0, in1);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -311,7 +318,7 @@ public class SampleTest {
             {0, 0, 0, 0, 1, 0, 0, 0}
         };
         boolean expectedResult = true;
-        boolean actualResult = Task1.knightBoardCapture(in);
+        boolean actualResult = Task.knightBoardCapture(in);
         assertEquals(expectedResult, actualResult);
     }
     @Test
@@ -328,7 +335,7 @@ public class SampleTest {
             {0, 0, 0, 1, 0, 1, 0, 1}
         };
         boolean expectedResult = false;
-        boolean actualResult = Task1.knightBoardCapture(in);
+        boolean actualResult = Task.knightBoardCapture(in);
         assertEquals(expectedResult, actualResult);
     }
 
@@ -346,7 +353,7 @@ public class SampleTest {
             {1, 0, 0, 0, 0, 0, 0, 0}
         };
         boolean expectedResult = false;
-        boolean actualResult = Task1.knightBoardCapture(in);
+        boolean actualResult = Task.knightBoardCapture(in);
         assertEquals(expectedResult, actualResult);
     }
 }
