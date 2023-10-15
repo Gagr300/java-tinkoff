@@ -131,7 +131,10 @@ public class Task {
     public static int findDigits(int n)
     {
         int ans = 0;
-        while(n > 0) { ans++; n /= 2;}
+        while(n > 0) {
+            ans++;
+            n /= 2;
+        }
         return ans;
     }
     public static int rotateLeft(int n, int shift){
