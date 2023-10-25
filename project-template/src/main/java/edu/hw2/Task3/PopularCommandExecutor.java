@@ -8,6 +8,8 @@ public final class PopularCommandExecutor {
     private final ConnectionManager manager;
     private final int maxAttempts;
 
+    private static ConnectionException exc = null;
+
     public PopularCommandExecutor(ConnectionManager manager, int maxAttempts) {
         this.manager = manager;
         this.maxAttempts = maxAttempts;
@@ -25,7 +27,14 @@ public final class PopularCommandExecutor {
                     return;
                 }
             } catch (Exception e) {
-                LOGGER.info(e);
+                if (exc != null) {
+                    e.addSuppressed(exc);
+                    exc.printStackTrace();
+                    e.printStackTrace();
+                } else {
+                    exc = (ConnectionException) e;
+                    e.printStackTrace();
+                }
             }
         }
         manager.getConnection();

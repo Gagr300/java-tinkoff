@@ -17,15 +17,12 @@ public class Tests {
     @ParameterizedTest
     @MethodSource("rectangles")
     void rectangleArea(Rectangle rect) {
-        rect.setWidth(20);
-        rect.setHeight(10);
-        if (rect instanceof Square square){
+        rect = rect.setWidth(20);
+        rect = rect.setHeight(10);
+        if (rect instanceof Square square) {
             assertThat(square.area()).isEqualTo(100.0);
-        }
-        else {
+        } else {
             assertThat(rect.area()).isEqualTo(200.0);
         }
     }
-
-
 }
