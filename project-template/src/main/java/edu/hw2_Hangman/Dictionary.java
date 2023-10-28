@@ -6,6 +6,7 @@ import java.util.stream.Stream;
 
 class Dictionary {
     private List<String> dictionary = List.of("one", "two", "three", "hello", "mistake", "hangman");
+
     private final Random rnd = new Random();
 
     public String getRandomWord() {

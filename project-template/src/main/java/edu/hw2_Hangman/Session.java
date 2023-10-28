@@ -12,7 +12,6 @@ public class Session {
         n = word.length();
         userWord = new StringBuilder("*".repeat(n));
     }
-
     GuessResult guess(char guess) {
         boolean guessed = false;
         for (int i = 0; i < n; i++) {
@@ -37,4 +36,7 @@ public class Session {
 
     }
 
+    GuessResult endGame(){
+        return new GuessResult.Error(word);
+    }
 }

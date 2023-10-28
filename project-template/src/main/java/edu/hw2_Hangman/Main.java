@@ -6,7 +6,10 @@ import java.io.IOException;
 
 public final class Main {
     public static void main(String[] args) throws IOException {
-        ConsoleHangman consoleHangman = new ConsoleHangman();
-        consoleHangman.run();
+        ConsolePlayer player = new ConsolePlayer();
+        Dictionary dictionary = new Dictionary();
+        String guessWord = dictionary.getRandomWord();
+        ConsoleHangman hangmanGame = new ConsoleHangman(player, guessWord);
+        hangmanGame.run();
     }
 }
