@@ -1,15 +1,17 @@
 package edu.hw3.Task8;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
 public class BackwardIterator<T> implements Iterator<T> {
-    private final List<T> list;
+    private final ArrayList<T> list;
     private int currentInd = 0;
 
-    public BackwardIterator(List<T> list) {
-        this.list = list;
-        currentInd = list.size() - 1;
+    public BackwardIterator(Collection<T> collection) {
+        this.list = new ArrayList<>(collection);
+        currentInd = collection.size() - 1;
     }
 
     @Override

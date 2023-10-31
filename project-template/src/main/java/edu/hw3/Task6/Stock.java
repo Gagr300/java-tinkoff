@@ -1,9 +1,10 @@
 package edu.hw3.Task6;
 
 import org.jetbrains.annotations.NotNull;
+import java.util.Comparator;
 import java.util.Objects;
 
-public record Stock(String name, double price) implements Comparable<Stock> {
+public record Stock(String name, double price) {
 
     public boolean equals(Stock s) {
         if (s == this) {
@@ -18,8 +19,6 @@ public record Stock(String name, double price) implements Comparable<Stock> {
         return Objects.hash(name, price);
     }
 
-    @Override
-    public int compareTo(@NotNull Stock s) {
-        return Double.compare(price, s.price);
-    }
+    public static final Comparator<Stock> PRICE_COMPARATOR = Comparator
+        .comparingDouble(Stock::price).reversed();
 }

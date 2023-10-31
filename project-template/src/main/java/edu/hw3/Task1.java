@@ -9,9 +9,11 @@ public class Task1 {
 
     public Task1() {
         replacement = new HashMap<>();
-        for (int i = 0; i < 26; i++) {
-            replacement.put((char) ('a' + i), (char) ('z' - i));
-            replacement.put((char) ('A' + i), (char) ('Z' - i));
+        for (char ch = 'a'; ch <= 'z'; ch ++){
+            replacement.put(ch, (char) ('z' - ch + 'a'));
+        }
+        for (char ch = 'A'; ch <= 'Z'; ch ++){
+            replacement.put(ch, (char) ('Z' - ch + 'A'));
         }
     }
 

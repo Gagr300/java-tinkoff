@@ -8,19 +8,9 @@ public record PhoneContact(String name, String surname) {
         this(name, "");
     }
 
-    public static final Comparator<PhoneContact> comparatorASC = new Comparator<PhoneContact>() {
-        public int compare(PhoneContact e1, PhoneContact e2) {
-            String comp1 = Objects.equals(e1.surname(), "") ? e1.name() : e1.surname();
-            String comp2 = Objects.equals(e2.surname(), "") ? e2.name() : e2.surname();
-            return comp1.compareTo(comp2);
-        }
-    };
+    public static final Comparator<PhoneContact> ASC = Comparator
+        .comparing(PhoneContact::surname)
+        .thenComparing(PhoneContact::name);
 
-    public static final Comparator<PhoneContact> comparatorDES = new Comparator<PhoneContact>() {
-        public int compare(PhoneContact e1, PhoneContact e2) {
-            String comp1 = Objects.equals(e1.surname(), "") ? e1.name() : e1.surname();
-            String comp2 = Objects.equals(e2.surname(), "") ? e2.name() : e2.surname();
-            return comp2.compareTo(comp1);
-        }
-    };
+    public static final Comparator<PhoneContact> DES = ASC.reversed();
 }
