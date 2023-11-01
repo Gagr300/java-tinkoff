@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="added hw3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/PhoneContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/PhoneContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Market.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task8/BackwardIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task8/BackwardIterator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hw3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gagr300&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ed79a907-c79d-4fb7-b2cc-4491b6e9de47" />
+        <option name="url" value="https://github.com/Gagr300/java-tinkoff" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Wij4BsPYC03iBpqF4FH6oDjQRw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Галина/IdeaProjects/java-course-2023/project-template/src/main/java/edu/hw2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.hw2_Hangman" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Галина\IdeaProjects\java-course-2023\project-template\src\main\java\edu\hw2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.hw2.Task1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="" />
+      <created>1697222100455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697222100455</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added task1">
+      <option name="closed" value="true" />
+      <created>1697223226149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697223226149</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added task1">
+      <option name="closed" value="true" />
+      <created>1697315541372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697315541372</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added task1">
+      <option name="closed" value="true" />
+      <created>1697394686004</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697394686004</updated>
+    </task>
+    <task id="LOCAL-00004" summary="edited homework">
+      <option name="closed" value="true" />
+      <created>1697394776540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697394776540</updated>
+    </task>
+    <task id="LOCAL-00005" summary="edited homework">
+      <option name="closed" value="true" />
+      <created>1697396317520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697396317520</updated>
+    </task>
+    <task id="LOCAL-00006" summary="homework 2">
+      <option name="closed" value="true" />
+      <created>1697982379189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697982379189</updated>
+    </task>
+    <task id="LOCAL-00007" summary="homework 2">
+      <option name="closed" value="true" />
+      <created>1697982425585</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697982425585</updated>
+    </task>
+    <task id="LOCAL-00008" summary="homework 2">
+      <option name="closed" value="true" />
+      <created>1697982550177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697982550177</updated>
+    </task>
+    <task id="LOCAL-00009" summary="homework hangman">
+      <option name="closed" value="true" />
+      <created>1697992752783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697992752783</updated>
+    </task>
+    <task id="LOCAL-00010" summary="homework hangman">
+      <option name="closed" value="true" />
+      <created>1698256954696</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698256954696</updated>
+    </task>
+    <task id="LOCAL-00011" summary="edited hangman">
+      <option name="closed" value="true" />
+      <created>1698502471002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698502471002</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added hw3">
+      <option name="closed" value="true" />
+      <created>1698525130925</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698525130925</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added task1" />
+    <MESSAGE value="edited homework" />
+    <MESSAGE value="homework 2" />
+    <MESSAGE value="homework hagman" />
+    <MESSAGE value="homework hangman" />
+    <MESSAGE value="edited hangman" />
+    <MESSAGE value="added hw3" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hw3" />
+  </component>
+</project>

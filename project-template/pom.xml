@@ -209,6 +209,11 @@
                         </execution>
                     </executions>
                     <configuration>
+                        <useModulePath>false</useModulePath>
+                        <includes>
+                            <include>**/*IntegrationTest.java</include>
+                            <include>**/*IntegrationTests.java</include>
+                        </includes>
                         <configLocation>checkstyle.xml</configLocation>
                         <consoleOutput>true</consoleOutput>
                         <logViolationsToConsole>true</logViolationsToConsole>
