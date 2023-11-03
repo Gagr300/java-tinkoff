@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="added hw3">
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/BooleanTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/GetAnimalTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/GetListTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/OtherTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/SortAnimalTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Tasks1920.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/ValidationError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw4/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/PhoneContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/PhoneContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Market.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task8/BackwardIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task8/BackwardIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw3" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +72,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw3&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw4&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Галина/IdeaProjects/java-course-2023/project-template/src/main/java/edu/hw2&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
