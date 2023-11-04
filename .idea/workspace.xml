@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="added hw3">
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/DFSGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/DFSSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/DFSWithWayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/RecursiveBacktrackingGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Renderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Renderer2DLabyrinth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/ShortestWaySolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/labyrinth/labyrinthTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/PhoneContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/PhoneContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task5/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Market.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task6/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task8/BackwardIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw3/Task8/BackwardIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -36,7 +43,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw3" />
+        <entry key="$PROJECT_DIR$" value="hw4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,18 +73,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw3&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Галина/IdeaProjects/java-course-2023/project-template/src/main/java/edu/hw2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "labyrinth",
+    "last_opened_file_path": "C:/Users/Галина/IdeaProjects/java-course-2023/project-template/src/main/java/edu/hw2",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="edu.hw2_Hangman" />
@@ -86,6 +93,7 @@
       <recent name="C:\Users\Галина\IdeaProjects\java-course-2023\project-template\src\main\java\edu\hw2" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.labyrinth" />
       <recent name="edu.hw2.Task1" />
     </key>
   </component>
@@ -217,5 +225,16 @@
     <MESSAGE value="edited hangman" />
     <MESSAGE value="added hw3" />
     <option name="LAST_COMMIT_MESSAGE" value="added hw3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/ShortestWaySolver.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
