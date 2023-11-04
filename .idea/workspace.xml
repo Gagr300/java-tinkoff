@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="added hw3">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/DFSGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/DFSSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/DFSWithWayGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/RecursiveBacktrackingGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Renderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Renderer2DLabyrinth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/ShortestWaySolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Solver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/labyrinth/labyrinthTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="labyrinth" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698525130925</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="labyrinth">
+      <option name="closed" value="true" />
+      <created>1699133648686</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699133648686</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,17 +217,8 @@
     <MESSAGE value="homework hangman" />
     <MESSAGE value="edited hangman" />
     <MESSAGE value="added hw3" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hw3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/ShortestWaySolver.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="hw4" />
+    <MESSAGE value="labyrinth" />
+    <option name="LAST_COMMIT_MESSAGE" value="labyrinth" />
   </component>
 </project>
