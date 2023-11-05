@@ -29,17 +29,19 @@ public class labyrinthTests {
         ));
     }
 
+
     @Test
     @DisplayName("testRenderDFSWithWaySolve")
     void testRenderDFSWithWaySolve() {
+
         DFSWithWayGenerator dfsGenerator = new DFSWithWayGenerator();
         Maze maze = dfsGenerator.generate(5, 5);
         Renderer2DLabyrinth renderer2DLabyrinth = new Renderer2DLabyrinth();
         System.out.println(renderer2DLabyrinth.render(maze));
-        ShortestWaySolver dfsSolver = new ShortestWaySolver();
+        ShortestWaySolver shortestWaySolver = new ShortestWaySolver();
         System.out.println(renderer2DLabyrinth.render(
             maze,
-            dfsSolver.solve(maze, new Coordinate(0, 0), new Coordinate(4, 4))
+            shortestWaySolver.solve(maze, new Coordinate(0, 0), new Coordinate(4, 4))
         ));
     }
 

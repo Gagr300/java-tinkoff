@@ -55,9 +55,12 @@ public class Renderer2DLabyrinth implements Renderer {
 
     @Override
     public String render(Maze maze, List<Coordinate> path) {
+        /*
         if (path == null || path.isEmpty()) {
             throw new RuntimeException("There is no way from start cell to end cell!");
         }
+
+         */
         StringBuilder ans = new StringBuilder();
         for (var line : maze.grid()) {
             for (var cell : line) {

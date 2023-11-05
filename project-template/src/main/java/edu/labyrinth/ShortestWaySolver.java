@@ -31,7 +31,7 @@ public class ShortestWaySolver implements Solver {
     private List<Coordinate> recostructWay(Coordinate start, Coordinate end) {
         List<Coordinate> way = new ArrayList<>(List.of(end));
         Coordinate cur = new Coordinate(end.row(), end.col());
-        while (cur.row() != start.row() && cur.col() != start.col()) {
+        while (cur.row() != start.row() || cur.col() != start.col()) {
             for (Coordinate ind : inds) {
                 int x = cur.row() + ind.row();
                 int y = cur.col() + ind.col();
@@ -39,6 +39,7 @@ public class ShortestWaySolver implements Solver {
                     && weight[x][y] == weight[cur.row()][cur.col()] - 1) {
                     cur = new Coordinate(x, y);
                     way.add(cur);
+                    break;
                 }
             }
         }
