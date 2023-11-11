@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="added hw3">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/BooleanTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/GetAnimalTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/GetListTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/OtherTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/SortAnimalTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Tasks1920.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/ValidationError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw4/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="labyrinth" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -38,7 +28,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="hw5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,7 +62,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw4&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;labyrinth&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Галина/IdeaProjects/java-course-2023/project-template/src/main/java/edu/hw2&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -88,6 +78,7 @@
       <recent name="C:\Users\Галина\IdeaProjects\java-course-2023\project-template\src\main\java\edu\hw2" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.labyrinth" />
       <recent name="edu.hw2.Task1" />
     </key>
   </component>
@@ -196,7 +187,31 @@
       <option name="project" value="LOCAL" />
       <updated>1698525130925</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="labyrinth">
+      <option name="closed" value="true" />
+      <created>1699133648686</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699133648686</updated>
+    </task>
+    <task id="LOCAL-00014" summary="labyrinth">
+      <option name="closed" value="true" />
+      <created>1699133681568</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699133681568</updated>
+    </task>
+    <task id="LOCAL-00015" summary="labyrinth">
+      <option name="closed" value="true" />
+      <created>1699705006794</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699705006794</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +233,8 @@
     <MESSAGE value="homework hangman" />
     <MESSAGE value="edited hangman" />
     <MESSAGE value="added hw3" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hw3" />
+    <MESSAGE value="hw4" />
+    <MESSAGE value="labyrinth" />
+    <option name="LAST_COMMIT_MESSAGE" value="labyrinth" />
   </component>
 </project>
