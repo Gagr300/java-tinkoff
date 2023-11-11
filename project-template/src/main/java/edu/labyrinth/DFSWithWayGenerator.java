@@ -12,11 +12,11 @@ import static edu.labyrinth.Cell.Type.PASSAGE;
 import static java.util.Collections.shuffle;
 
 public class DFSWithWayGenerator implements Generator {
-    int height;
-    int width;
-    Cell[][] grid;
-    boolean[][] visited;
-    Random rn = new Random();
+    private int height;
+    private int width;
+    private Cell[][] grid;
+    private boolean[][] visited;
+    private final Random rn = new Random();
 
     @Override public Maze generate(int height, int width) {
         if (height < 2 || width < 2) {
@@ -127,7 +127,7 @@ public class DFSWithWayGenerator implements Generator {
         deleteWallWithNeighbor(clusterFromStart);
     }
 
-    private List<Coordinate> inds = List.of(
+    private final List<Coordinate> inds = List.of(
         new Coordinate(-1, 0), new Coordinate(0, 1),
         new Coordinate(0, -1), new Coordinate(1, 0)
     );
