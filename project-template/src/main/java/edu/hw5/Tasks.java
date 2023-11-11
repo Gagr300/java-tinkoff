@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 
 public class Tasks {
 
-    public static Duration Task1(List<String> sessions) {
+    public static Duration task1(List<String> sessions) {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd, HH:mm");
 
         return sessions.stream()
@@ -27,7 +27,7 @@ public class Tasks {
             .dividedBy(sessions.size());
     }
 
-    public static List<LocalDate> Task2(int year) {
+    public static List<LocalDate> task2(int year) {
         List<LocalDate> ans = new ArrayList<>();
         LocalDate date = LocalDate.of(year, 1, 1);
         while (date.getYear() == year) {
@@ -39,7 +39,7 @@ public class Tasks {
         return ans;
     }
 
-    public static Optional<LocalDate> Task3(String string) {
+    public static Optional<LocalDate> task3(String string) {
         List<DateTimeFormatter> dateTimeFormatters = List.of(
             DateTimeFormatter.ofPattern("yyyy-M-d"),
             DateTimeFormatter.ofPattern("yyyy-d-M"),
@@ -78,39 +78,39 @@ public class Tasks {
         };
     }
 
-    public static boolean Task4(String string) {
+    public static boolean task4(String string) {
         return string.matches(".*[~!@#$%^&*|].*");
     }
 
-    public static boolean Task5(String string) {
+    public static boolean task5(String string) {
         return string.matches("^[АВЕКМНОРСТУХ]\\d{3}[АВЕКМНОРСТУХ]{2}\\d{2,3}$");
     }
 
-    public static boolean Task6(String text, String word) {
+    public static boolean task6(String text, String word) {
         return text.matches(".*" + word + ".*");
     }
 
-    public static boolean Task7_1(String string) {
+    public static boolean task7_1(String string) {
         return string.matches("^[01]{2}0[01]*$");
     }
 
-    public static boolean Task7_2(String string) {
+    public static boolean task7_2(String string) {
         return string.matches("^0[01]*0$|^1[01]*1$|^0$|^1$");
     }
 
-    public static boolean Task7_3(String string) {
+    public static boolean task7_3(String string) {
         return string.matches("^[01]{1,3}$");
     }
 
-    public static boolean Task8_1(String string) {
+    public static boolean task8_1(String string) {
         return string.matches("^[01]([01]{2})*$");
     }
 
-    public static boolean Task8_2(String string) {
+    public static boolean task8_2(String string) {
         return string.matches("^0([01]{2})*$|^1[01]([01]{2})*$");
     }
 
-    public static boolean Task8_3(String string) {
+    public static boolean task8_3(String string) {
         Pattern pattern = Pattern.compile("01*");
         Matcher matcher = pattern.matcher(string);
         int count = 0;
@@ -121,19 +121,19 @@ public class Tasks {
         return (count % 3 == 0);
     }
 
-    public static boolean Task8_4(String string) {
+    public static boolean task8_4(String string) {
         return string.matches("^(?!(11$|111$))[01]*$");
     }
 
-    public static boolean Task8_5(String string) {
+    public static boolean task8_5(String string) {
         return string.matches("1(([01]1)*)0{0,1}$");
     }
 
-    public static boolean Task8_6(String string) {
+    public static boolean task8_6(String string) {
         return string.matches("^0*(010|100|001|00)0*$");
     }
 
-    public static boolean Task8_7(String string) {
+    public static boolean task8_7(String string) {
         return string.matches("^(10|0)*1{0,1}$");
     }
 }

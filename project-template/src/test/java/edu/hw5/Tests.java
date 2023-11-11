@@ -17,7 +17,7 @@ public class Tests {
         Duration exp = Duration.ofMinutes(3 * 60 + 40);
         assertEquals(
             exp,
-            Tasks.Task1(List.of(
+            Tasks.task1(List.of(
                 "2022-03-12, 20:20 - 2022-03-12, 23:50",
                 "2022-04-01, 21:30 - 2022-04-02, 01:20"
             ))
@@ -33,7 +33,7 @@ public class Tests {
                 LocalDate.of(1925, 3, 13),
                 LocalDate.of(1925, 11, 13)
             ),
-            Tasks.Task2(1925)
+            Tasks.task2(1925)
         );
     }
 
@@ -45,7 +45,7 @@ public class Tests {
                 LocalDate.of(2024, 9, 13),
                 LocalDate.of(2024, 12, 13)
             ),
-            Tasks.Task2(2024)
+            Tasks.task2(2024)
         );
     }
 
@@ -54,7 +54,7 @@ public class Tests {
     void test3_1() {
         assertEquals(
             Optional.of(LocalDate.of(2020, 10, 10)),
-            Tasks.Task3("2020-10-10")
+            Tasks.task3("2020-10-10")
         );
     }
 
@@ -63,7 +63,7 @@ public class Tests {
     void test3_2() {
         assertEquals(
             Optional.of(LocalDate.of(2020, 12, 2)),
-            Tasks.Task3("2020-12-2")
+            Tasks.task3("2020-12-2")
         );
     }
 
@@ -72,7 +72,7 @@ public class Tests {
     void test3_3() {
         assertEquals(
             Optional.of(LocalDate.of(1976, 3, 1)),
-            Tasks.Task3("1/3/1976")
+            Tasks.task3("1/3/1976")
         );
     }
 
@@ -81,7 +81,7 @@ public class Tests {
     void test3_4() {
         assertEquals(
             Optional.of(LocalDate.of(2020, 3, 1)),
-            Tasks.Task3("1/3/20")
+            Tasks.task3("1/3/20")
         );
     }
 
@@ -90,7 +90,7 @@ public class Tests {
     void test3_5() {
         assertEquals(
             Optional.of(LocalDate.of(2023, 11, 12)),
-            Tasks.Task3("tomorrow")
+            Tasks.task3("tomorrow")
         );
     }
 
@@ -99,74 +99,74 @@ public class Tests {
     void test3_6() {
         assertEquals(
             Optional.of(LocalDate.of(2023, 11, 1)),
-            Tasks.Task3("10 days ago")
+            Tasks.task3("10 days ago")
         );
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test4_1")
     void test4_1() {
-        assertTrue(Tasks.Task4("dfkjidfhifd|iuh!7"));
+        assertTrue(Tasks.task4("dfkjidfhifd|iuh!7"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test4_2")
     void test4_2() {
-        assertTrue(Tasks.Task4("dfkjidfh~ifdiuh7"));
+        assertTrue(Tasks.task4("dfkjidfh~ifdiuh7"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test4_3")
     void test4_3() {
-        assertFalse(Tasks.Task4("dfkjidfhifdiuh"));
+        assertFalse(Tasks.task4("dfkjidfhifdiuh"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test5_1")
     void test5_1() {
-        assertTrue(Tasks.Task5("А123ВЕ777"));
+        assertTrue(Tasks.task5("А123ВЕ777"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test5_2")
     void test5_2() {
-        assertTrue(Tasks.Task5("О777ОО177"));
+        assertTrue(Tasks.task5("О777ОО177"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test5_3")
     void test5_3() {
-        assertFalse(Tasks.Task5("123АВЕ777"));
+        assertFalse(Tasks.task5("123АВЕ777"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test5_4")
     void test5_4() {
-        assertFalse(Tasks.Task5("А123ВГ77"));
+        assertFalse(Tasks.task5("А123ВГ77"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test5_5")
     void test5_5() {
-        assertFalse(Tasks.Task5("А123ВЕ7777"));
+        assertFalse(Tasks.task5("А123ВЕ7777"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test6_1")
     void test6_1() {
-        assertTrue(Tasks.Task6("hdgcjhdsabchjkfd", "abc"));
+        assertTrue(Tasks.task6("hdgcjhdsabchjkfd", "abc"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test6_2")
     void test6_2() {
-        assertTrue(Tasks.Task6("hdgcjhdsabchjabcabckfd", "abc"));
+        assertTrue(Tasks.task6("hdgcjhdsabchjabcabckfd", "abc"));
     }
 
     @org.junit.jupiter.api.Test
     @DisplayName("test6_3")
     void test6_3() {
-        assertFalse(Tasks.Task6("hdgcjhdkfd", "abc"));
+        assertFalse(Tasks.task6("hdgcjhdkfd", "abc"));
     }
 
 }
