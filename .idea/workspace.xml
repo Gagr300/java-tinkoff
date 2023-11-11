@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="labyrinth">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Renderer2DLabyrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/Renderer2DLabyrinth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/ShortestWaySolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/labyrinth/ShortestWaySolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-template/src/test/java/edu/labyrinth/labyrinthTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/labyrinth/labyrinthTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="labyrinth" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +28,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw4" />
+        <entry key="$PROJECT_DIR$" value="hw5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -208,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699133681568</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="labyrinth">
+      <option name="closed" value="true" />
+      <created>1699705006794</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699705006794</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
