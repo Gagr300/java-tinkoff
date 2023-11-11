@@ -60,11 +60,12 @@ public class Tasks {
         }
 
         List<String> splt = List.of(string.split(" "));
-        if (splt.size()==3 && (splt.get(1).equals("day") || splt.get(1).equals("days")) && splt.get(0).matches("^\\d+$")){
-            if (splt.get(2).equals("ago")){
+        if (splt.size() == 3 && (splt.get(1).equals("day") || splt.get(1).equals("days")) &&
+            splt.get(0).matches("^\\d+$")) {
+            if (splt.get(2).equals("ago")) {
                 return Optional.of(LocalDate.now().minusDays(Integer.parseInt(splt.get(0))));
             }
-            if (splt.get(2).equals("after")){
+            if (splt.get(2).equals("after")) {
                 return Optional.of(LocalDate.now().minusDays(Integer.parseInt(splt.get(0))));
             }
         }
