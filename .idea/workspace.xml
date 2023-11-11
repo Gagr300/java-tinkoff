@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="added hw3">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/BooleanTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/GetAnimalTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/GetListTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/OtherTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/SortAnimalTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/Tasks1920.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw4/ValidationError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw4/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Tests7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw5/Tests8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -72,7 +71,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw4&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw5&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Галина/IdeaProjects/java-course-2023/project-template/src/main/java/edu/hw2&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -219,5 +218,16 @@
     <MESSAGE value="edited hangman" />
     <MESSAGE value="added hw3" />
     <option name="LAST_COMMIT_MESSAGE" value="added hw3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project-template/src/main/java/edu/hw5/Tasks.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
