@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="added hw5">
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task3/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task3/PersonDB3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task3/PersonDB35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task3/PersonDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw7/Tests3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-template/src/test/java/edu/hw7/Tests4.java" afterDir="false" />
+    <list default="true" id="2b156c97-f0c9-46fe-a18d-4988807b3b82" name="Changes" comment="added hw7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-template/src/main/java/edu/hw7/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699724212651</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added hw7">
+      <option name="closed" value="true" />
+      <created>1700942410815</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700942410815</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +239,8 @@
     <MESSAGE value="edited hangman" />
     <MESSAGE value="added hw3" />
     <MESSAGE value="added hw5" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hw5" />
+    <MESSAGE value="added hw7" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hw7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
